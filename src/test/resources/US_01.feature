@@ -1,0 +1,1 @@
+Feature: US_01 success register with valid credentials
