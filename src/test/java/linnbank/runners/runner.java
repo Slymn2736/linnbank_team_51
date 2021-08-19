@@ -10,10 +10,10 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"
         },
-        features= "src/test/resources",
-        glue = "stepdefinitions",
+        features= "src/test/resources/features",
+        glue = "linnbank/stepdefinitions",
         tags = "@US015",
-        dryRun = true
+        dryRun = false
 
 )
 
